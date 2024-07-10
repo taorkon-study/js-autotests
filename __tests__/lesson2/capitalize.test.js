@@ -1,4 +1,4 @@
-import capitalize from '../src/capitalize.js';
+import capitalize from '../../src/lesson2/capitalize.js';
 
 if (capitalize('hello') !== 'Hello') {
   throw new Error('Function works incorrectly.');
